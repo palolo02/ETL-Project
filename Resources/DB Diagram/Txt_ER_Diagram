@@ -1,0 +1,25 @@
+# Modify this code to update the DB schema diagram.
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+Category
+-
+CategoryID PK int
+CategoryName varchar(200) 
+
+Country
+-
+CountryID PK int
+CountryName varchar(200)
+
+Video
+-
+VideoID PK int
+TrendingDate date
+Title varchar(200)
+Channel varchar(200)
+CategoryID int FK >- Category.CategoryID
+CountryID int FK >- Country.CountryID
+Views int
+Likes int
+Dislikes int
+Comments int
