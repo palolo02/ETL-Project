@@ -1,7 +1,7 @@
 # Credentials
 dialect = 'postgresql+psycopg2'
 host = 'localhost'
-port = '5432'
-db = 'db'
-usr = 'usuario'
-pwd = 'password'
+port = '5433'
+db = 'youtube_statistics'
+usr = 'postgres'
+pwd = 'postgres'
